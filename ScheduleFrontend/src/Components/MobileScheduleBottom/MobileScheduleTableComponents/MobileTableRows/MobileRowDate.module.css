@@ -1,0 +1,35 @@
+.weekDayName {
+    font-family: 'Montserrat', 'Arial';
+    font-weight: 800;
+    font-size: 2em;
+}
+
+.currentDate {
+    font-size: 1.2em;
+}
+
+.todayEntry {
+    font-size: 0.8em;
+}
+
+.schedule_date
+{
+    margin-right: 100%;
+    display: table;
+    border: 0;
+}
+
+.schedule_date div
+{
+    display: table-cell;    
+    vertical-align: middle;
+    padding: 10px 0px 0px 10px;
+}
+
+.schedule_date.dateActive {
+    color: #5c74a5;
+}
+.dateUnactive {
+    color: rgba(0,0,0,0.5);
+}
+

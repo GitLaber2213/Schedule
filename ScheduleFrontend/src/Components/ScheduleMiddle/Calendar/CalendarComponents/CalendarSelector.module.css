@@ -1,0 +1,35 @@
+.container_calendar_selector {
+    width: 98.7%;
+    height: 50px;
+    background-color: #a7b1c5;
+}
+
+.uncontainer_calendar_selector {
+    width: 100px;
+    height: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.uncontainer_calendar_selector div {
+    font-size: 18px;
+}
+
+.uncontainer_calendar_selector div a {
+    padding: 5px 10px;
+    border-radius: 50%;
+    transition: .5s;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.uncontainer_calendar_selector div a:active {
+    background-color: aliceblue;
+}
+
+@media (hover:hover) {
+    .uncontainer_calendar_selector div a:hover {
+        background-color: aliceblue;
+    }
+}

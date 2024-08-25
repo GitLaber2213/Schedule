@@ -1,0 +1,39 @@
+.select_container {
+    padding-top: 15px;
+}
+
+.select_group {
+    display: block;
+    font-size: 16px;
+    padding: .6em 1.4em .5em .8em;
+    width: 288px;
+    box-sizing: border-box;
+    border: 1px solid #a7b3c5;
+    box-shadow: 0 1px 0 1px #a7b3c5;
+    border-radius: 5px;
+    background-color: #e6ebf557;
+}
+
+@media screen and (max-width: 350px) {
+    .select_group {
+        width: 210px;
+    }   
+}
+
+.select_group::-ms-expand {
+    display: none;
+    letter-spacing: 3px;
+}
+
+.select_group:hover {
+    border-color: #726d8f;
+}
+
+.select_group:focus {
+    border-color: #363389;
+    outline: none;
+}
+
+.select_group option {
+    font-weight: normal;
+}

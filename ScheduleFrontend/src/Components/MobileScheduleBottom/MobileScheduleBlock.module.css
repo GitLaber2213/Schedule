@@ -1,0 +1,10 @@
+.schedule_block {
+    font-size: 0.7em;
+    padding: 30px;
+}
+
+@media screen and (max-width: 350px) {
+    .schedule_block {
+        font-size: 0.5em;
+    }   
+}

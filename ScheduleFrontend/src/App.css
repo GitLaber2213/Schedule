@@ -1,0 +1,16 @@
+.container_block_selector
+{
+    width: 325px;
+    height: 380px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: solid 0.2em #a7b3c5;
+    box-shadow: 5px 5px 5px 1px #a7b3c5;
+    background-color: #e6ebf557;
+}
+
+@media screen and (max-width: 350px) {
+    .container_block_selector {
+        width: 250px;
+    }   
+}

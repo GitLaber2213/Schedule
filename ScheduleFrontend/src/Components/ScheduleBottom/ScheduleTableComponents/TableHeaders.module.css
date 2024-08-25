@@ -1,0 +1,89 @@
+.header {
+    width: 100px;
+    padding: 10px 10px;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: left;
+}
+
+.schedule_prep.header {
+    width: 250px;
+}
+
+.schedule_para.header {
+    width: 30px;
+}
+
+.schedule_discipline.header {
+    width: 450px;
+}
+
+.schedule_time.header {
+    width: 140px;
+}
+
+.schedule_aud.header {
+    width: 140px;
+}
+
+@media screen and (max-width: 1450px) {
+    .schedule_prep.header {
+        width: 200px;
+    }
+
+    .schedule_para.header {
+        width: 30px;
+    }
+
+    .schedule_discipline.header {
+        width: 400px;
+    }
+
+    .schedule_time.header {
+        width: 140px;
+    }
+    .schedule_aud.header {
+        width: 140px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .schedule_prep.header {
+        width: 150px;
+    }
+
+    .schedule_para.header {
+        width: 15px;
+    }
+
+    .schedule_discipline.header {
+        width: 200px;
+    }
+
+    .schedule_time.header {
+        width: 140px;
+    }
+    .schedule_aud.header {
+        width: 140px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .schedule_prep.header {
+        width: 150px;
+    }
+
+    .schedule_para.header {
+        width: 15px;
+    }
+
+    .schedule_discipline.header {
+        width: 100px;
+    }
+
+    .schedule_time.header {
+        width: 140px;
+    }
+    .schedule_aud.header {
+        width: 140px;
+    }
+}

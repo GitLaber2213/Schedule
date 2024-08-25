@@ -1,0 +1,22 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+body {
+  background-color: rgb(242, 242, 242);
+  font-family: 'Montserrat', 'Arial';
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}

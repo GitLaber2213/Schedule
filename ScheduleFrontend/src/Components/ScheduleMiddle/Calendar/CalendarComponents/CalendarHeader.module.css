@@ -1,0 +1,13 @@
+.container_calendar_header {
+    padding-top: 15px;
+}
+
+.calendar_header {
+    width: 98.7%;
+    height: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #a7b3c5
+}

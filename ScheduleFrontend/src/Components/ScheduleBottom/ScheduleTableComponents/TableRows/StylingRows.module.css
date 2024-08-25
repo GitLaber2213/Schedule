@@ -1,0 +1,74 @@
+.row_table:last-child .body {
+    border-bottom: none;
+}
+
+.body {
+    border: 0.1em solid #a7b1c5;
+    padding: 5px 15px 5px 15px;
+    border-top: 0;
+    color: rgba(0, 0, 0, 0.8);
+    font-size:  1em;
+    word-wrap: normal;
+
+}
+
+.schedule_para.body {
+    border-left: 0;
+    color: rgba(0, 0, 0, 0.418);
+}
+
+.schedule_aud.body {
+    border-right: 0;
+}
+
+.weekDayName {
+    line-height: 30px;
+    font-family: 'Montserrat', 'Arial';
+    font-weight: 800;
+    font-size: 2em;
+}
+
+.currentDate {
+    font-size: 1em;
+}
+
+.todayEntry {
+    font-size: 0.8em;
+}
+
+.schedule_date.body {
+    position: absolute;
+    display: block;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    justify-content: center;
+    text-align: center;
+    border: 0;
+    padding: 10px;
+}
+
+.schedule_date {
+    background-color: transparent;
+}
+
+.dateActive {
+    color: #5c74a5;
+}
+.dateUnactive {
+    color: rgba(0,0,0,0.5);
+}
+
+.timeActive {
+    background-color: #dee3ec;
+}
+
+.span {
+    vertical-align: middle;
+    white-space: nowrap;
+    background-color: #c7cedc;
+    color: #213d6d;
+    font-size: 0.7em;
+    padding:3px 7px 3px 7px;
+    margin: 7px;
+    border-radius: 10px;
+}

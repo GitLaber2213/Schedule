@@ -1,0 +1,43 @@
+.row_table:last-child {
+    border-bottom: none;
+}
+.row_table
+{
+    border-bottom: 0.1em solid #a7b1c5;
+}
+.body {
+    padding: 5px 5px 5px 5px;
+    border-left: 0.1em solid #a7b1c5;
+    color: rgba(0, 0, 0, 0.8);
+    font-size:  1em;
+}
+
+.schedule_para {
+    width: 10px;
+    border-left: 0;
+    color: rgba(0, 0, 0, 0.418);
+}
+
+.schedule_time
+{
+    width: 85px;
+}
+
+.schedule_discipline .body
+{
+    width: 200px;
+}
+
+.timeActive {
+    background-color: #dee3ec;
+}
+
+.span {
+    vertical-align: middle;
+    background-color: #c7cedc;
+    color: #213d6d;
+    font-size: 0.7em;
+    padding:3px 7px 3px 7px;
+    margin: 5px;
+    border-radius: 10px;
+}
